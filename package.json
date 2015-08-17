@@ -11,6 +11,7 @@
     "build": "./node_modules/.bin/grunt build",
     "clean": "./node_modules/.bin/grunt clean",
     "demo-build": "./node_modules/.bin/grunt demo-build",
+    "documentation-build": "./node_modules/.bin/grunt documentation-build",
     "test-watch": "./node_modules/.bin/grunt watch 2>&1 >/dev/null & ./node_modules/karma/bin/karma start karma.dev.js",
     "test": "./node_modules/.bin/grunt build && ./node_modules/karma/bin/karma start karma.ci.js"
   },
